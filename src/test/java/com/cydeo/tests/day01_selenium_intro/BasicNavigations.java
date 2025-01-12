@@ -56,6 +56,7 @@ public class BasicNavigations {
         driver.close();
 
         //closes all-of-the opened browsers
-        driver.quit();
+        driver.close();
+        System.out.println("helo");
     }
 }
